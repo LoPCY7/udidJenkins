@@ -1,0 +1,1 @@
+Ubuntu image for docker that includes jenkins and docker (docker in docker - dind) preinstalled

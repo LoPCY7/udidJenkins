@@ -1,0 +1,9 @@
+version: '2'
+services:
+  jenkins:
+    build: .
+    privileged: true
+    volumes:
+      - ./data:/var/lib/jenkins
+    ports:
+        - "88:8080"
